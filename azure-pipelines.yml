@@ -20,13 +20,14 @@ jobs:
           pythonVersion: 3.9
         python310:
           pythonVersion: 3.10
-        python311:
+        python312:
           pythonVersion: 3.11
         python312:
-          pythonVersion: 3.12
+          pythonVersion: 3.22
 
     pool:
       vmImage: 'ubuntu-latest'
+        vmImage2: 'ubuntu-latest'
 
     variables:
       TOXENV: py${{ replace(variables['pythonVersion'], '.', '') }}
