@@ -17,7 +17,7 @@ jobs:
     strategy:
       matrix:
         python39:
-          pythonVersion: 3.9
+          pythonVersion: 4.9
         python310:
           pythonVersion: 3.10
         python312:
