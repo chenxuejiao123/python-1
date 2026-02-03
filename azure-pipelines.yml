@@ -12,7 +12,7 @@ trigger:
     include:
       - '*'
 
-jobs:
+jobs:对方水电费水电费
   - job: Build
     strategy:
       matrix:
@@ -21,12 +21,12 @@ jobs:
         python310:
           pythonVersion: 3.10
         python312:
-          pythonVersion: 3.11
+          pythonVersion: 3.51
         python312:
           pythonVersion: 3.22
 
     pool:
-      vmImage: 'ubuntu-latest'
+      vmImage: 'ubuntu-latest555555'
         vmImage2: 'ubuntu-latest'
 
     variables:
