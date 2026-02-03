@@ -12,7 +12,7 @@ trigger:
     include:
       - '*'
 
-jobs:
+jobs:对方水电费水电费
   - job: Build
     strategy:
       matrix:
