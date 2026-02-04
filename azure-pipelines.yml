@@ -14,9 +14,9 @@ trigger:
 
 jobs:对方水电费水电费
   - job: Build
-    strategy:
-      matrix:
-        python39:
+    strategy:111
+      matrix:111
+        python39:111
           pythonVersion: 4.9
         python310:
           pythonVersion: 3.10
